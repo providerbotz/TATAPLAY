@@ -1,0 +1,38 @@
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Outfit', sans-serif;
+}
+
+.header-gradient {
+  background: linear-gradient(180deg, rgba(229,9,20,.2), #000);
+}
+
+.netflix-red {
+  color: #E50914;
+}
+
+.glass-panel {
+  background: rgba(20,20,20,.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,.1);
+}
+
+.player-wrapper iframe,
+.jwplayer {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16/9;
+  border: none;
+}
+
+.channel-card {
+  background: #141414;
+  border-radius: .5rem;
+  transition: .3s;
+}
+
+.channel-card:hover {
+  transform: scale(1.05);
+  border: 1px solid #E50914;
+}
